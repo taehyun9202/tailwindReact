@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install Tailwind 
+
+https://tailwindcss.com/docs/guides/create-react-app
+
+do following if have trouble with creating tailwind.config.js
+```
+npm uninstall tailwindcss postcss autoprefixer
+npm install tailwindcss@latest postcss@latest autoprefixer@latest
+
+npx tailwindcss init -p
+
+npm uninstall tailwindcss postcss autoprefixer
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
