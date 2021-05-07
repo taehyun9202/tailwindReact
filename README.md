@@ -11,6 +11,7 @@ do following if have trouble with creating tailwind.config.js
 npx tailwindcss init -p
 
 npm uninstall tailwindcss postcss autoprefixer
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
 ```
