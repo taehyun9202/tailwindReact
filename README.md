@@ -8,9 +8,6 @@ https://tailwindcss.com/docs/guides/create-react-app
 
 do following if have trouble with creating tailwind.config.js
 ```
-npm uninstall tailwindcss postcss autoprefixer
-npm install tailwindcss@latest postcss@latest autoprefixer@latest
-
 npx tailwindcss init -p
 
 npm uninstall tailwindcss postcss autoprefixer
